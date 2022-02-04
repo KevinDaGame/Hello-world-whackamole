@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    max-width:50px;
+    align-self: center;
+  }
+  .grid-item {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+  .score{
+      text-align: center;
+      
+  }
+
+  .gameover{
+    text-align: center;
+  }
+
+  .hole{
+      border-radius: 50%;
+      border: 1px solid black;
+      min-width: 50px;
+      min-height: 50px;
+      max-width: 50px;
+      max-height: 50px;
+  }
+
+  .mole{
+    background-color: red;
+  }
